@@ -19,7 +19,7 @@ The platform covers:
 - Administrative documents (legal requirements for trainers in Portugal)
 - Financial management (invoicing, earnings, revenue comparison)
 
-This project was built entirely by the team, covering database **planning**, **frontend development**, and **backend programming**, and follows the **MVC (Model-View-Controller) design pattern** for a clean separation of data, presentation, and logic.
+This project was built entirely by the team, covering **database planning**, **frontend development**, and **backend programming**, and follows the **MVC (Model-View-Controller) design pattern** for a clean separation of data, presentation, and logic.
 
 ---
 
