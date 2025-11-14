@@ -1,0 +1,125 @@
+body {
+    background-color: #FAF7F2;
+    color: #4B3F32;
+}
+
+/* --------- BOTÃO ADICIONAR NOVA FATURA --------- */
+#btn-nova-fatura {
+  border: none;
+  border-radius: 0px;
+  background-color: #52796F;
+  color: #EAF4F4;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+#btn-nova-fatura:hover {
+  background-color: #73ac99;
+  color: #EAF4F4;
+}
+
+/* --------- CARD FATURAÇÃO --------- */
+.card-financas{
+  border: none;
+  border-radius: 0px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+  background-color: #FFFDF9;
+  color: #4B3F32;
+}
+
+.text-amount{
+    color: #5E8A7B
+}
+
+.card-title{
+    color: #4B3F32;
+}
+
+/* --------- GRID FATURAÇÃO POR INSTITUIÇÃO/FATURAS --------- */
+.card-faturas, .card-ganhos{
+  border: none;
+  border-radius: 0px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+}
+
+.card-ganhos .card,
+.card-faturas .card {
+  background-color: #FFFDF9;
+}
+
+/* --------- TABELA FATURAS --------- */
+#faturasTabela{
+    height: 350px;
+    overflow: auto;
+}
+
+/* ---------- Cabeçalho da tabela ---------- */
+.table-responsive table.table thead th {
+    background-color: #FFFDF9; /* mesmo fundo do card */
+    border-bottom: none;
+    font-weight: 600;
+    color: #5E8A7B
+}
+
+/* Fundo de cada linha da tabela (aplicado às células) */
+.table-responsive table.table tbody td {
+    background-color: #FFFDF9 !important; /* força fundo igual ao card */
+}
+
+/* Células da tabela */
+.table-responsive table.table td,
+.table-responsive table.table th {
+    border: none;
+    padding: 10px 13px;
+}
+
+/* Espaçamento entre linhas da tabela usando border-spacing */
+.table-responsive table.table {
+    border-collapse: separate;
+    border-spacing: 0 8px; /* adiciona espaçamento vertical entre as linhas */
+}
+
+/* ---------- Botão Apagar (ícone de lixeira) ---------- */
+.btn-apagar {
+    color: #4B3F32 !important; /* cor inicial do ícone */
+    background-color: transparent !important;; /* mantém estilo de link */
+    border: none !important;;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.btn-apagar:hover {
+    color: #FAF7F2 !important;
+    background-color: #5E8A7B !important; /* fundo leve ao hover */
+}
+
+#buttonAlterarEstado:hover {
+    background-color: #5E8A7B;
+    color: #FFFFFF;
+}
+
+/* --------- MODAL NOVA FATURA --------- */
+/* Botão "Adicionar Fatura" */
+#editModalNovaFatura .btn-primary {
+    background-color: #5E8A7B; /* verde desejado */
+    border-color: #5E8A7B;
+    color: #FFFFFF;
+    transition: all 0.2s;
+}
+
+#editModalNovaFatura .btn-primary:hover {
+    background-color: #4A6A5C; /* verde mais escuro no hover */
+    border-color: #4A6A5C;
+    color: #FFFFFF;
+}
+
+
+/*--------- RESPONSIVIDADE MOBILE ---------*/
+/* Apenas mobile */
+@media (max-width: 767.98px) {
+    #faturasTabela table {
+        font-size: 0.8rem; /* encolhe texto */
+    }
+    #faturasTabela th,
+    #faturasTabela td {
+        padding: 0.3rem; /* menos espaço interno */
+    }
+}

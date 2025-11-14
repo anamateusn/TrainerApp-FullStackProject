@@ -1,0 +1,50 @@
+
+/* Remove sublinhado dos números dos dias */
+.fc .fc-daygrid-day-number {
+    text-decoration: none !important;
+    color: #000 !important; /* mantém preto */
+}
+
+/* Remove sublinhado dos nomes dos dias da semana */
+.fc .fc-col-header-cell-cushion {
+    text-decoration: none !important;
+    color: #000 !important; /* podes mudar a cor se quiseres */
+    font-weight: 600; /* deixa mais destacado */
+}
+
+
+/* Eventos - deixar o FullCalendar controlar a cor */
+.fc .fc-event,
+.fc .fc-event a {
+    text-decoration: none !important;
+    color: inherit !important; /* herda o textColor do JS */
+}
+
+
+#calendar {
+    width: 100%;
+      }
+
+      #calendar button{
+        background-color: #52796F!important;
+        color: #EAF4F4!important;
+        border-radius: 0px!important;
+
+    }
+
+    #calendar button:hover{
+        background-color: #73ac99!important;
+        color: #EAF4F4!important;
+    }
+
+    .btn{
+        background-color: #52796F!important;
+        color: #EAF4F4!important;
+        border-radius: 0px!important;
+    }
+    .btn:hover{
+        background-color: #73ac99!important;
+        color: #EAF4F4!important;
+        border-radius: 0px!important;
+
+    }

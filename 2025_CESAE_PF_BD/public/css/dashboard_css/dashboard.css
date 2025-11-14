@@ -1,0 +1,108 @@
+body {
+    background-color: #FAF7F2!important;
+    color: #4B3F32;
+}
+.titlecard i {
+    margin-left: 10px; /* ou qualquer valor */
+
+  }
+  .titlecard{
+    font-size: 17px;
+
+  }
+
+  .card-info{
+    border: none;
+    border-radius: 0px !important;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    background-color: #FFFDF9!important;
+
+  }
+
+
+
+  #fastAction{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    background-color: #FFFDF9;
+  }
+
+  #fastActionButtons{
+    padding: 20px;
+  }
+  #fastActionButtons i{
+margin-right: 10px;  }
+
+#calendar {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 600px; /* altura mínima para aparecer */
+}
+
+#filterBox{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    height: 600px;          /* altura fixa */
+    overflow-y: auto;       /* ativa scroll vertical */
+    overflow-x: hidden;
+    background-color: #FFFDF9;
+}
+
+.title{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0; /* remove espaço abaixo do h5 */
+
+}
+
+/*FILTRO CALENDARIO*/
+
+
+#subtitles{
+    font-size: 15px;
+    padding: 7px;
+    color: rgb(0, 111, 20);
+}
+
+.apontamento-header {
+    font-weight: bold;
+    background-color: #f8f9fa; /* cinzento clarinho estilo bootstrap */
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+.apontamento-row {
+    font-size: 1.0rem;
+    padding: 3px;
+}
+
+.apontamento-row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.apontamento-row > .col-6 {
+    padding: 5px 10px;
+}
+
+/* . FILTRO CALENDARIO*/
+
+.informacaoAgenda{
+    font-size: 10px;
+}
+
+
+.card-body{
+    background-color: #FFFDF9;
+}
+
+.btn{
+    background-color: #52796F!important;
+  color: #EAF4F4!important;
+  border-radius: none!important;
+}
+.btn:hover {
+    background-color: #73ac99!important;
+    color: #EAF4F4!important;
+}

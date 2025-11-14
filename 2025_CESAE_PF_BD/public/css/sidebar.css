@@ -1,0 +1,65 @@
+.sidebar {
+  box-shadow: 6px 0 15px rgba(0,0,0,0.3);
+  background-color: #52796F !important;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow-y: auto;   /* se o conteúdo for maior que a tela */
+  min-height: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;      /* evita “estouro” em flex */
+}
+.sidebar a {
+  display: block;
+  color: #EAF4F4;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.sidebar a:hover {
+  background-color: #5E8A7B;
+}
+
+.sidebar a i {
+  margin-right: 8px;
+  font-size: 1.2rem !important;
+  vertical-align: middle;
+}
+
+.sidebar .profile img {
+  object-fit: cover;
+}
+
+
+#sair{
+  margin-bottom: 100px;
+}
+ /* CRIAR DIV COM O NOME CONTENT PARA USAR A FORMATACAO */
+.content {
+    margin-left: 0px; /* empurra o conteúdo para o lado */
+    padding: 20px;
+  }
+
+@media (min-width: 992px) {
+  .offcanvas-lg {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+  }
+
+  .content {
+    margin-left: 250px;
+  }
+}
+
+
+
